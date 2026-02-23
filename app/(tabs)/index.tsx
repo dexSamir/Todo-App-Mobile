@@ -3,10 +3,11 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   const { toggleDarkMode } = useTheme();
+
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={toggleDarkMode}>
-        <Text>Press</Text>
+        <Text>Change Theme</Text>
       </TouchableOpacity>
     </View>
   );
