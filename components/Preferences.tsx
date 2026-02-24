@@ -67,7 +67,7 @@ const Preferences = () => {
           >
             <Ionicons name="notifications" size={18} color="#fff" />
           </LinearGradient>
-          <Text style={settingsStyles.settingText}>Auto Async</Text>
+          <Text style={settingsStyles.settingText}>Auto Sync</Text>
         </View>
         <Switch
           value={isAutoSync}
